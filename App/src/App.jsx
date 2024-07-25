@@ -66,7 +66,7 @@ function App() {
           ref={ref}
           readOnly
           name=""
-          id=""
+          id="result"
           value={result}
           placeholder={mode === "encrypt" ? "Encrypted Text" : "Decrypted Text"}
         ></textarea>
